@@ -2,7 +2,8 @@
     color: silver;
     background-color: black;
     height: 130px;
-    
+    font-family: 'VT323', monospace;
+/* font-family: 'Seaweed Script', cursive; */
     
     padding: 10px;
     text-align: center;
@@ -24,8 +25,14 @@
 
 /* The animation code */
 @keyframes example {
-    from {background-color:purple;}
+    from {background-color:silver;}
     to {background-color:black;}
   }
-  
+  .carousel-item  {
+      height: 400px;
+      width: 400px;
+      margin-left: 400px;
+      margin-top: 20px;
+      
+  }
   
