@@ -8,7 +8,16 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Seaweed+Script|VT323" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded|Jua" rel="stylesheet">
-    <body background="..\assets\images\konium.PNG">
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+    <body background="..\assets\images\konium.PNG" id ="background">
 
     <body>
 
@@ -32,6 +41,24 @@
                   <div id= "main">
                         <h1>About KONIUM</h1>
     
-                        <img src="../assets/images/twittericon.png" class="social" alt="twitter" >
-                        <!-- <a href="https://twitter.com/iamkonium?lang=en">twitter </a> -->
+                        <a href="https://twitter.com/iamkonium?lang=en">
+                          <img src="../assets/images/twittericon.png" class="social" alt="twitter" >
+                          </a>
+                    </div>
+
+                    <div id="list-example" class="list-group">
+                      <a class="list-group-item list-group-item-action" href="#list-item-1">Background</a>
+                      <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+                      <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+                      <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+                    </div>
+                    <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+                      <h4 id="list-item-1">Background</h4>
+                      <p>Grew up in Cleveland, Ohio and went to Brecksville High School</p>
+                      <h4 id="list-item-2">Item 2</h4>
+                      <p>...</p>
+                      <h4 id="list-item-3">Item 3</h4>
+                      <p>...</p>
+                      <h4 id="list-item-4">Item 4</h4>
+                      <p>...</p>
                     </div>

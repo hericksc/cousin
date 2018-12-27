@@ -35,4 +35,29 @@
       margin-top: 20px;
       
   }
-  
+#carousel {
+    width: 300px;
+    height: 400px;
+}
+p {
+    background-color: Darkgray;
+}
+#background {
+opacity: 1;
+}
+#musiclinks {
+    background-color: darkgray;
+    border-style: bold;
+    margin-top: 40px;
+    width: 50%;
+    font-size: 34px;
+    border-width:5px;  
+    border-style:outset;
+    color: black;
+    margin-left: 300px;
+    height: 600px;
+    
+}
+.container {
+    width: 600px;
+}
