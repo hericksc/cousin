@@ -61,3 +61,26 @@ opacity: 1;
 .container {
     width: 600px;
 }
+#main-content {
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+h2 {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    #main-content {
+        width: 50%;
+        height: 200px;
+        margin-left: 50px;
+
+
+    }
+}
