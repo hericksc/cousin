@@ -104,3 +104,13 @@ footer {
     padding:5px;
     margin-top: -40px;
 }
+.img-thumbnail {
+    width: 100x;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+}
+p {
+    font-size: 16px;
+    padding: 20px;
+}
