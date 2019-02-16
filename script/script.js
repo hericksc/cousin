@@ -1,3 +1,6 @@
+$(document).ready(function () {
+
+
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
@@ -13,10 +16,5 @@ if (hourNow > 18) {
 }
 $("#greeting").html(greeting);
 
-// var konium = prompt ('Is Konium your favorite DJ?');
-
-// if (konium === "yes") {
-//   alert ('my man!');
-// } else if (konium === 'no') {
-//   alert ('Leave this site immediatly!!!!')
-// }
+});
+                
